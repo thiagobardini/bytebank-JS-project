@@ -5,12 +5,13 @@
 ### My goal is to learn more about JavaScript. 
 - I divided the classes into branches.
 
-## Class1 -> Repeating Code
+## Class2 -> Adding behaviors
 - O que aprendemos nessa aula:
-  - Criando classes
-  - O que são atributos
-  - Instâcia/Objeto
-  - Operador new
+  - Criação de métodos
+  - Palavra chave this
+  - Encapsulamento
+  - Proposta de atributos privados
+  - return e early return
 
 
 
@@ -18,7 +19,7 @@
 ## References
 
 ### Shortcut
-- (VSCode) Mac: Command + Option + 0 -> Alterar codigo em linhas ao mesmo tempo 
+- (VSCode) Mac: Command + Option + o -> Alterar codigo em linhas ao mesmo tempo 
 - (JS) `\n` line empty below
 ### Git -> Commit & Push
 - git add .                           -> chamando o arquivo master
