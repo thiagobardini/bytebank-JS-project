@@ -16,6 +16,10 @@
 
 
 ## References
+
+### Shortcut
+- (VSCode) Mac: Command + Option + 0 -> Alterar codigo em linhas ao mesmo tempo 
+- (JS) `\n` line empty below
 ### Git -> Commit & Push
 - git add .                           -> chamando o arquivo master
 - git commit -m "updated"             -> criar commit
