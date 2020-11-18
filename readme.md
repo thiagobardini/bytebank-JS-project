@@ -8,7 +8,7 @@
 # Final Project
 ### Project Name: Byte Bank
 
-What we learned in this project:
+What I learned in this project:
   - Creating classes
   - What are attributes
   - Instance / Object
