@@ -5,22 +5,24 @@
 ### My goal is to learn more about JavaScript. 
 - I divided the classes into branches.
 
-## Class2 -> Adding behaviors
-- O que aprendemos nessa aula:
-  - Criação de métodos
-  - Palavra chave this
-  - Encapsulamento
-  - Proposta de atributos privados
-  - return e early return
-
-
+## Class3 -> Modularizing Code
+- What we learned in this class:
+  - Package.json
+  - Modules
+  - importation / exportation
+  - What are the advantages of having a code where classes and composition when obtaining from primitive types
+  - Value types and reference types
+  - Dynamically changing an object
 
 
 ## References
-
 ### Shortcut
 - (VSCode) Mac: Command + Option + o -> Alterar codigo em linhas ao mesmo tempo 
-- (JS) `\n` line empty below
+- (JS) `\n` line empty 
+- Package.json
+  - Instalando package.json -> npm init
+  - Para rodar os modulos incluir no documento: "type": "module"
+    - > A versão modulo está ainda como versão experimental
 ### Git -> Commit & Push
 - git add .                           -> chamando o arquivo master
 - git commit -m "updated"             -> criar commit
