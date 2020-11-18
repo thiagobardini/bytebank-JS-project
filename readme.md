@@ -5,21 +5,22 @@
 ### My goal is to learn more about JavaScript. 
 - I divided the classes into branches.
 
-## Class1 -> Repeating Code
-- O que aprendemos nessa aula:
-  - Criando classes
-  - O que são atributos
-  - Instâcia/Objeto
-  - Operador new
-
-
+## Class5 -> Accessing Private Attributes
+What we learned in this class:
+  - Builders
+  - Encapsulation
+  - Attributes "only reading"
+  - Static attributes
 
 
 ## References
-
 ### Shortcut
-- (VSCode) Mac: Command + Option + 0 -> Alterar codigo em linhas ao mesmo tempo 
-- (JS) `\n` line empty below
+- (VSCode) Mac: Command + Option + o -> Alterar codigo em linhas ao mesmo tempo 
+- (JS) `\n` line empty 
+- Package.json
+  - Instalando package.json -> npm init
+  - Para rodar os modulos incluir no documento: "type": "module"
+     > A versão modulo está ainda como versão experimental
 ### Git -> Commit & Push
 - git add .                           -> chamando o arquivo master
 - git commit -m "updated"             -> criar commit
