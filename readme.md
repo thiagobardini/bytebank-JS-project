@@ -12,7 +12,7 @@ What I learned in this project:
   - Creating classes
   - What are attributes
   - Instance / Object
-  - New operato
+  - New operator
   - Creation of methods
   - Keyword this
   - Encapsulation
