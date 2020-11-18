@@ -6,7 +6,7 @@
 - I divided the classes into branches.
 
 ## Class5 -> Accessing Private Attributes
-What we learned in this class:
+What I learned in this class:
   - Builders
   - Encapsulation
   - Attributes "only reading"
