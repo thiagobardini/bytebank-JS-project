@@ -22,7 +22,7 @@
 - Package.json
   - Instalando package.json -> npm init
   - Para rodar os modulos incluir no documento: "type": "module"
-    - > A versão modulo está ainda como versão experimental
+     > A versão modulo está ainda como versão experimental
 ### Git -> Commit & Push
 - git add .                           -> chamando o arquivo master
 - git commit -m "updated"             -> criar commit
