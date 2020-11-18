@@ -1,0 +1,42 @@
+import { Customer } from "./Customer.js";
+
+export class Checking {
+  accountReference;
+  _customer;
+
+  set customer(newValue){           // regra de protecao do dado, é só possivel receber o valor do customer
+    if(newValue instanceof Customer){
+      this._customer = newValue;
+    }
+  }  
+
+  get customer(){
+    return this._customer;
+  }
+ 
+  _balance = 0; // _ é uma convenção da comunidade para indicar que esse atributo é privacidade, e só deve ser acessado se for dentro dela.
+
+  get balance(){
+    return this._balance;
+  }           
+  // get -> é uma propriedade de leitura. Nao é possivel atrubuir valor diretamente 
+
+  withdrawal(value) {
+    if(this._balance >= value) {
+      this._balance -= value;
+      return value;
+    }
+  }
+
+  deposit(value) {    
+    if(value <= 0) {
+      return;         // early return -> se o valor for menor que zero a função para
+    }
+      this._balance += value;
+  }
+
+  transfer(value, accountReference){
+    const amountWithdrawn = this.withdrawal(value);
+    accountReference.deposit(amountWithdrawn);
+  }
+}
