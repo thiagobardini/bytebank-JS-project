@@ -6,7 +6,7 @@
 - I divided the classes into branches.
 
 ## Class1 -> Repeating Code
-What we learned in this class:
+What I learned in this class:
   - Creating classes
   - What are attributes
   - Instance / Object
