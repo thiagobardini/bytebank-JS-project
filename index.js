@@ -1,27 +1,20 @@
-class Cliente{                  // 1- Exemplo de class ->  Uma maneira de replicar, q se chama properties.. Ao invéns de const para cada um (nome, cpf...)   
-  nome;
-  cpf;
-  agencia;
-  saldo;
-}
+import { Customer } from "./Customer.js"
+import { Checking } from "./Checking.js"
 
-const cliente1 = new Cliente();  // new refere-se a um objeto -> uma instancia da minha class (meu molde)
-const cliente2 = new Cliente();
-
-cliente1.nome = "Ricardo";       
-cliente1.cpf = 11122233309;
-cliente1.agencia = 1001;
-cliente1.saldo = 0;
+const customer1 = new Customer("Thiago", 12345678);
+const customer2 = new Customer("Caroline", 111111111);
 
 
-cliente2.nome = "Alice";
-cliente2.cpf = 88822233309;
-cliente2.agencia = 1001;
-cliente2.saldo = 0;
+const accountThiago = new Checking(1001, customer1);
+accountThiago.deposit(500);
+accountThiago.withdrawal(100)
 
+const accountCaroline = new Checking(1002, customer2);
 
-const cliente3Nome = "Alice";       // 2-Exemplo
-const cliente3CPF = 88822233309;
-const cliente3Agencia = 1001;
-const cliente3Saldo = 0;
-console.log(cliente1, cliente2);
+let value = 200;
+accountThiago.transfer(value, accountCaroline);
+
+console.log("Byte Bank - Number of Accounts: ", Checking.numberOfAccounts);
+
+console.log(`\n`, accountThiago);
+console.log(`\n`, accountCaroline);
