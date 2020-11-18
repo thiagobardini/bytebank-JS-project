@@ -6,18 +6,15 @@
 - I divided the classes into branches.
 
 ## Class2 -> Adding behaviors
-- O que aprendemos nessa aula:
-  - Criação de métodos
-  - Palavra chave this
-  - Encapsulamento
-  - Proposta de atributos privados
-  - return e early return
-
-
+What we learned in this class:
+- Creation of methods
+- Keyword this
+- Encapsulation
+- Proposed private attributes
+- return and early return
 
 
 ## References
-
 ### Shortcut
 - (VSCode) Mac: Command + Option + o -> Alterar codigo em linhas ao mesmo tempo 
 - (JS) `\n` line empty below
