@@ -6,7 +6,7 @@
 - I divided the classes into branches.
 
 ## Class4 -> Accessing Private Attributes
-What we learned in this class:
+What I learned in this class:
   - Differences between null and undefined
   - Deepening the concepts of references to a memory space
   - Get and Set
