@@ -6,7 +6,7 @@
 - I divided the classes into branches.
 
 ## Class2 -> Adding behaviors
-What we learned in this class:
+What I learned in this class:
 - Creation of methods
 - Keyword this
 - Encapsulation
