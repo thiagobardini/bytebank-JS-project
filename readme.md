@@ -6,7 +6,7 @@
 - I divided the classes into branches.
 
 ## Class3 -> Modularizing Code
-What we learned in this class:
+What I learned in this class:
   - Package.json
   - Modules
   - importation / exportation
