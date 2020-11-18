@@ -6,14 +6,11 @@
 - I divided the classes into branches.
 
 ## Class1 -> Repeating Code
-- O que aprendemos nessa aula:
-  - Criando classes
-  - O que são atributos
-  - Instâcia/Objeto
-  - Operador new
-
-
-
+What we learned in this class:
+  - Creating classes
+  - What are attributes
+  - Instance / Object
+  - New operator
 
 ## References
 
