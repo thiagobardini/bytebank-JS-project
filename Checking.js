@@ -2,7 +2,7 @@ import { Customer } from "./Customer.js";
 
 export class Checking {
   static numberOfAccounts = 0; //Serve como um valor estatico se referindo a class Checking
-  accountReference;
+  agency;
   _customer;
   _balance = 0; // _ é uma convenção da comunidade para indicar que esse atributo é privacidade, e só deve ser acessado se for dentro dela.
 
@@ -23,8 +23,8 @@ export class Checking {
   }           
   // get -> é uma propriedade de leitura. Nao é possivel atrubuir valor diretamente 
 
-  constructor(accountReference, customer){
-    this.accountReference = accountReference;
+  constructor(agency, customer){
+    this.agency = agency;
     this._customer = customer; 
     Checking.numberOfAccounts += 1; // usando static -> o valor se refere ao total de contas no Checking, evitando o erro de atribuir somente uma conta.
   }
@@ -43,8 +43,8 @@ export class Checking {
       this._balance += value;
   }
 
-  transfer(value, accountReference){
+  transfer(value, agency){
     const amountWithdrawn = this.withdrawal(value);
-    accountReference.deposit(amountWithdrawn);
+    agency.deposit(amountWithdrawn);
   }
 }
