@@ -1,5 +1,5 @@
 export class Checking {
-  accountReference;
+  agency;
   customer;
  
   _balance = 0; // _ é uma convenção da comunidade para indicar que esse atributo é privacidade, e só deve ser acessado se for dentro dela.
@@ -18,8 +18,8 @@ export class Checking {
       this._balance += value;
   }
 
-  transfer(value, accountReference){
+  transfer(value, agency){
     const amountWithdrawn = this.withdrawal(value);
-    accountReference.deposit(amountWithdrawn);
+    agency.deposit(amountWithdrawn);
   }
 }
