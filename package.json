@@ -1,7 +1,7 @@
 {
   "name": "bytebank",
   "version": "1.0.0",
-  "description": "Project for bytebank",
+  "description": "Project for ByteBank",
   "main": "Checking.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
