@@ -2,7 +2,7 @@ import { Customer } from "./Customer.js";
 
 export class Checking {
   static numberOfAccounts = 0;
-  accountReference;
+  agency;
   _customer;
   _balance = 0;
 
@@ -22,8 +22,8 @@ export class Checking {
     return this._balance;
   }
 
-  constructor(accountReference, customer) {
-    this.accountReference = accountReference;
+  constructor(agency, customer) {
+    this.agency = agency;
     this._customer = customer;
     Checking.numberOfAccounts += 1;
   }
@@ -44,8 +44,8 @@ export class Checking {
     this._balance += value;
   }
 
-  transfer(value, accountReference) {
+  transfer(value, agency) {
     const amountWithdrawn = this.withdrawal(value);
-    accountReference.deposit(amountWithdrawn);
+    agency.deposit(amountWithdrawn);
   }
 }
