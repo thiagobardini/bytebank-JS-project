@@ -4,7 +4,7 @@ class customer {
 }
 
 class checking {
-  accountReference;
+  agency;
   _balance = 0; // _ é uma convenção da comunidade para indicar que esse atributo é privacidade, e só deve ser acessado se for dentro dela.
 
   withdrawal(value) {
@@ -31,7 +31,7 @@ customer2.name = "Caroline";
 customer2.socialSecurity = 111111111;
 
 const accountThiago = new checking();
-accountThiago.accountReference = 1001;
+accountThiago.agency = 1001;
 
 accountThiago.deposit(-100); // na função early return retirou esse valor
 accountThiago.deposit(100);
