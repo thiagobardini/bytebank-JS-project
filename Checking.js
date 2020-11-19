@@ -1,7 +1,7 @@
 import { Customer } from "./Customer.js";
 
 export class Checking {
-  accountReference;
+  agency;
   _customer;
 
   set customer(newValue){           // regra de protecao do dado, é só possivel receber o valor do customer
@@ -35,8 +35,8 @@ export class Checking {
       this._balance += value;
   }
 
-  transfer(value, accountReference){
+  transfer(value, agency){
     const amountWithdrawn = this.withdrawal(value);
-    accountReference.deposit(amountWithdrawn);
+    agency.deposit(amountWithdrawn);
   }
 }
