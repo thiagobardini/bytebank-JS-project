@@ -5,12 +5,13 @@
 ### My goal is to learn more about JavaScript. 
 - I divided the classes into branches.
 
-## Class5 -> Accessing Private Attributes
+## Class6 -> Customer Issues
 What I learned in this class:
-  - Builders
-  - Encapsulation
-  - Attributes "only reading"
-  - Static attributes
+  - Class, Properties
+  - Good practices when declaring attributes
+  - Always declaring properties as initially private
+  - Code duplication issues
+  - Shared code issues
 
 
 ## References
@@ -21,6 +22,15 @@ What I learned in this class:
   - Instalando package.json -> npm init
   - Para rodar os modulos incluir no documento: "type": "module"
      > A versão modulo está ainda como versão experimental
+
+- Shortcuts for the videos class - Alura
+  - Setas ⬅️(esquerda) e ➡️(direita) avaçam ou retorcedem 10s
+  - M mutar o video
+  - F para ir para tela cheia
+  - K ou espaço pausam o video
+  - X cicla entre as opções de velocidade de repodução do video
+  - Setas ⬆️(cima) e para ⬇️(baixo), aumentam e diminuem o volume mas para isso tem que estar focado no video
+ 
 ### Git -> Commit & Push
 - git add .                           -> chamando o arquivo master
 - git commit -m "updated"             -> criar commit

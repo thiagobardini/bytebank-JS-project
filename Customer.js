@@ -1,8 +1,4 @@
-export class Customer {
-  name;
-  _socialSecurity;
-
-
+export class Customer { 
   get socialSecurity(){
     return this._socialSecurity;
   }

@@ -1,22 +1,16 @@
-import {Customer} from "./Customer.js"
-import {Checking} from "./Checking.js"
+import {Customer} from "./Customer.js";
+import {Checking} from "./Checking.js";
+import {Savings} from "./Savings.js";
+import {Account} from "./Account.js";
 
-const customer1 = new Customer("Thiago", 12345678); // atribuido o valor pelo constructor
-const customer2 = new Customer("Caroline", 111111111); // atribuido o valor pelo constructor
+const customer1 = new Customer("Thiago", 12345678); 
 
 
-const accountThiago = new Checking(1001, customer1);
+const accountThiago = new Account(0, customer1, 1001);
 accountThiago.deposit(500);
 accountThiago.withdrawal(100)
 
-const accountCaroline = new Checking(1002, customer2);
+const savings = new Account(50,customer1,1001);
 
-let value = 200;
-accountThiago.transfer(value, accountCaroline);
-
-console.log("Byte Bank - Number of Accounts: ",Checking.numberOfAccounts);
-
-console.log(`\n`,accountThiago);
-console.log(`\n`,accountCaroline);
-
-
+console.log(savings)
+console.log(accountThiago);
