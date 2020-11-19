@@ -4,7 +4,7 @@ class customer {
 }
 
 class checking {
-  accountReference;
+  agency;
   balance;
 
   withdrawal(value){
@@ -25,7 +25,7 @@ customer2.name = "Caroline";
 customer2.socialSecurity = 111111111;
 
 const accountThiago = new checking();
-accountThiago.accountReference = 1001;
+accountThiago.agency = 1001;
 accountThiago.balance = 0;
 
 console.log(accountThiago.balance)
