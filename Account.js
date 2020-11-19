@@ -1,26 +1,38 @@
 export class Account {
-  constructor(OpeningBalance, customer, agency) {
-    this._balance = OpeningBalance;
+  constructor(openingBalance, customer, agency) {
+    this._balance = openingBalance;
     this._customer = customer;
-    this._agency = agency; 
+    this._agency = agency;
+  }
+
+  set customer(newValue) {
+    if (newValue instanceof Customer) {
+      this._customer = newValue;
+    }
+  }
+
+  get customer() {
+    return this._customer;
+  }
+
+  get balance() {
+    return this._balance;
   }
 
   withdrawal(value) {
-    tax = 1.1 * value;
-    if(this._balance >= value) {
-      this._balance -= value;
-      return value;
+    let tax = 1;
+    const amountWithdrawn = tax * value;
+    if (this._balance >= amountWithdrawn) {
+      this._balance -= amountWithdrawn;
+      return amountWithdrawn;
     }
   }
 
-  deposit(value) {    
-    if(value <= 0) {
-      return;         // early return -> se o valor for menor que zero a função para
-    }
-      this._balance += value;
+  deposit(value) {
+    this._balance += value;
   }
 
-  transfer(value, agency){
+  transfer(value, agency) {
     const amountWithdrawn = this.withdrawal(value);
     agency.deposit(amountWithdrawn);
   }
