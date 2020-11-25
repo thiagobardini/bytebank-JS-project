@@ -12,10 +12,5 @@ export class Checking extends Account {   // extends -> extende os dados de outr
     return this._withdrawal(value,tax)
   }
 
-  // Explicando como se comporta o SUPER em relacao a conta pai com filho(account)
-  // test(){
-  //   super.test();
-  //   console.log("Testing the method super")
-  // }
 
 } 

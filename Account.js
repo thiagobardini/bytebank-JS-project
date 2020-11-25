@@ -42,7 +42,5 @@ export class Account {
     agency.deposit(amountWithdrawn);
   }
 
-  // test(){
-  //   console.log("Testing the method super - account")
-  // }
+
 }
