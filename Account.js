@@ -6,7 +6,7 @@ export class Account {
   }
 
   set customer(newValue) {
-    if (newValue instanceof Customer) {
+    if (newValue instanceof Customer) { 
       this._customer = newValue;
     }
   }
@@ -21,11 +21,16 @@ export class Account {
 
   withdrawal(value) {
     let tax = 1;
+    return this._withdrawal(value,tax)
+  }
+  // Esses dois metodos tem correlacao com a class checking e savings, sendo que checking é atribuido uma taxa dentro de uma hierarquia super
+  _withdrawal(value, tax) {
     const amountWithdrawn = tax * value;
     if (this._balance >= amountWithdrawn) {
       this._balance -= amountWithdrawn;
       return amountWithdrawn;
     }
+    return 0;
   }
 
   deposit(value) {
@@ -37,5 +42,7 @@ export class Account {
     agency.deposit(amountWithdrawn);
   }
 
-
+  // test(){
+  //   console.log("Testing the method super - account")
+  // }
 }
