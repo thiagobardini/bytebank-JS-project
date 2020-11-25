@@ -5,7 +5,7 @@
 ### My goal is to learn more about JavaScript. 
 - I divided the classes into branches.
 
-## Class6 -> Customer Issues
+## Class8 -> Customer Issues
 What I learned in this class:
 - Especializando código
 - Herdando propriedades e atributos

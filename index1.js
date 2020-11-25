@@ -13,5 +13,5 @@ accountThiago.withdrawal(100)
 const savings = new Savings(50,customer1,1001);
 savings.withdrawal(10)
 
-console.log(savings)
-console.log(accountThiago)
+
+console.log(Account)
