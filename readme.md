@@ -7,18 +7,14 @@
 
 ## Class8 -> Customer Issues
 What I learned in this class:
-- Especializando código
-- Herdando propriedades e atributos
-- Sobrecarga de métodos
-- Compartilhando código de forma segura
-- Mantendo nosso código na linguagem do cliente
-- Evitando código muito complicado através da herança
-- Palavra-chave Super
-- Método e propriedades privadas e protegidas
-
+  - How JS knows who is being instantiated
+  - Weighing in protecting our system
+  - Throwing errors to the system
+  - Abstract classes
+  - Abstract methods
+  - Runtime errors
 
 ## References
-
 ### JavaScript 
 - extends -> extende os dados de outra class 
 - get -> associa uma propriedade de um objeto a uma função que será chamada quando tal propriedade é acessada.
@@ -27,7 +23,7 @@ What I learned in this class:
   - No entanto, a gente não pode alterar (por padrão) o prototype do objeto.
 - static -> is created with the "static" keyword, and you can only call the method on the class itself.  
 - super ->  hierarquia de aceeso - super é usada para acessar o objeto pai de um objeto, em outros casos, é usada para acessar a classe pai de uma classe.
-
+- trow new Error ->  b
 ### Shortcut
 - (VSCode) Mac: Command + Option + o -> Alterar codigo em linhas ao mesmo tempo 
 - (JS) `\n` line empty 
