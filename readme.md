@@ -2,7 +2,7 @@
 
 ![alura](https://lh3.googleusercontent.com/TM-g_2L7u2p99kwg4IQeB-3352WfCq0vKXP4h5cOvISUlNll6-1WHu8t2B0oZdZKjkmp)
 
-## Class6 -> Customer Issues
+##  Phase 2.1 - Customer Issues
 What I learned in this class:
   - Class, Properties
   - Good practices when declaring attributes
