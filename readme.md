@@ -3,7 +3,7 @@
 ![alura](https://lh3.googleusercontent.com/TM-g_2L7u2p99kwg4IQeB-3352WfCq0vKXP4h5cOvISUlNll6-1WHu8t2B0oZdZKjkmp)
 
 
-## Phase 2.2 - Heritage
+##  Phase 2.2 - Heritage
   - Specializing code
   - Inheriting properties and attributes
   - Overload of methods
@@ -14,7 +14,8 @@
   - Private and protected method and properties
 
 
-## Tips - JS
+## Tips
+JavaScript
 - extends -> extende os dados de outra class 
 - get -> associa uma propriedade de um objeto a uma função que será chamada quando tal propriedade é acessada.
 
