@@ -9,14 +9,14 @@
 ### My goal is to learn more about JavaScript. 
 - I divided the classes into branches.
 
-## Class10 -> Customer Issues
-What I learned in this class:
+## Phase2-5 - Customer Issues
   - instanceOf operator
   - How to protect our systems
   - standardized interfaces
   - Ducky type
-## References
-### JavaScript 
+  
+## Tips
+JavaScript 
 - extends -> extende os dados de outra class 
 - get -> associa uma propriedade de um objeto a uma função que será chamada quando tal propriedade é acessada.
 
@@ -25,7 +25,8 @@ What I learned in this class:
 - static -> is created with the "static" keyword, and you can only call the method on the class itself.  
 - super ->  hierarquia de aceeso - super é usada para acessar o objeto pai de um objeto, em outros casos, é usada para acessar a classe pai de uma classe.
 - trow new Error ->  b
-### Shortcut
+
+### Shortcuts
 - (VSCode) Mac: Command + Option + o -> Alterar codigo em linhas ao mesmo tempo 
 - (JS) `\n` line empty 
 - Package.json
