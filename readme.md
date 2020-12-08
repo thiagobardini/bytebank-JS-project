@@ -5,16 +5,15 @@
 ### My goal is to learn more about JavaScript. 
 - I divided the classes into branches.
 
-## Class6 -> Herança
-What I learned in this class:
-- Especializando código
-- Herdando propriedades e atributos
-- Sobrecarga de métodos
-- Compartilhando código de forma segura
-- Mantendo nosso código na linguagem do cliente
-- Evitando código muito complicado através da herança
-- Palavra-chave Super
-- Método e propriedades privadas e protegidas
+## Phase 2.2 - Heritage
+  - Specializing code
+  - Inheriting properties and attributes
+  - Overload of methods
+  - Sharing code securely
+  - Keeping our code in the client's language
+  - Avoiding very complicated code through inheritance
+  - Super keyword
+  - Private and protected method and properties
 
 
 ## References
