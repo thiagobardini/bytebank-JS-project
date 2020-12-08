@@ -1,12 +1,8 @@
 # alura-courses
 
 ![alura](https://lh3.googleusercontent.com/TM-g_2L7u2p99kwg4IQeB-3352WfCq0vKXP4h5cOvISUlNll6-1WHu8t2B0oZdZKjkmp)
-
-### My goal is to learn more about JavaScript. 
-- I divided the classes into branches.
-
-## Class4 -> Accessing Private Attributes
-What I learned in this class:
+  
+ ## Phase1.4 - Accessing Private Attributes
   - Differences between null and undefined
   - Deepening the concepts of references to a memory space
   - Get and Set
