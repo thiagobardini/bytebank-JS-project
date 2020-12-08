@@ -14,7 +14,7 @@
   - Private and protected method and properties
 
 
-### TIPS - JavaScript 
+### Tips - JS
 - extends -> extende os dados de outra class 
 - get -> associa uma propriedade de um objeto a uma função que será chamada quando tal propriedade é acessada.
 
