@@ -2,7 +2,7 @@
 
 ![alura](https://lh3.googleusercontent.com/TM-g_2L7u2p99kwg4IQeB-3352WfCq0vKXP4h5cOvISUlNll6-1WHu8t2B0oZdZKjkmp)
 
- ## Phase1.3 - Modularizing Code
+ ## Phase1-3 - Modularizing Code
   - Package.json
   - Modules
   - importation / exportation
