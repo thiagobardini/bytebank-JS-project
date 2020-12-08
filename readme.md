@@ -2,16 +2,19 @@
 
 ![alura](https://lh3.googleusercontent.com/TM-g_2L7u2p99kwg4IQeB-3352WfCq0vKXP4h5cOvISUlNll6-1WHu8t2B0oZdZKjkmp)
 
+## Main Goals
+ Understand the methods: 
+  - Encapsulation (example: Account) 
+  - Polymorphism - Ducky Type (example SystemAuthentication) 
 ### My goal is to learn more about JavaScript. 
 - I divided the classes into branches.
 
-## Class8 -> Customer Issues
+## Class10 -> Customer Issues
 What I learned in this class:
-  - Inheritance review, good code practices and encapsulation
-  - Polymorphism
-  - Static methods
-  - Ways to treat objects of different types in a similar way
-
+  - instanceOf operator
+  - How to protect our systems
+  - standardized interfaces
+  - Ducky type
 ## References
 ### JavaScript 
 - extends -> extende os dados de outra class 
