@@ -7,12 +7,10 @@
 
 ## Class8 -> Customer Issues
 What I learned in this class:
-  - How JS knows who is being instantiated
-  - Weighing in protecting our system
-  - Throwing errors to the system
-  - Abstract classes
-  - Abstract methods
-  - Runtime errors
+  - Inheritance review, good code practices and encapsulation
+  - Polymorphism
+  - Static methods
+  - Ways to treat objects of different types in a similar way
 
 ## References
 ### JavaScript 
