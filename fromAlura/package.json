@@ -8,9 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/thiagobardini/JavaScript-OOP/issues"
-  },
-  "homepage": "https://github.com/thiagobardini/JavaScript-OOP#readme"
+  "type": "module"
 }
