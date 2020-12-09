@@ -1,8 +1,8 @@
 import { Account } from "./Account.js";
 export class Checking extends Account {    
   static numberOfAccounts = 0;
-  constructor(customer,agency) {
-    super(0,customer,agency);    
+  constructor(openingBalance,customer,agency) {
+    super(openingBalance,customer,agency);    
     Checking.numberOfAccounts += 1;
   }
 
