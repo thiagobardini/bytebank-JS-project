@@ -79,3 +79,8 @@ Phase2-5 - Customer Issues
   - How to protect our systems
   - standardized interfaces
   - Ducky type
+
+## Reference 
+- Alura Courses: 
+  - JavaScript Object Oriented Programming 
+  - JavaScript: Interface and Objects 
